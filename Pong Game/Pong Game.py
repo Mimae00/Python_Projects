@@ -6,7 +6,7 @@ win.bgcolor("black")
 win.setup(width=800, height=600)
 win.tracer(0)
 
-win.bgpic("C:/Programming/Python Portfolio/Python-Portfolio/Pong Game/background.png")
+win.bgpic("background.png")
 
 
 # Score

@@ -22,7 +22,7 @@ def alarm(set_alarm_timer):
             play = 0
             while play != 10:  # This will ring alarm for 10 seconds
                 playsound(
-                    "C:/Programming/Python Portfolio/Python-Portfolio/Alarm Clock/sound.wav")
+                    "sound.wav")
                 play += 1
             print("Set alarm again")
             return
@@ -58,7 +58,7 @@ secTime = Entry(clock, textvariable=sec, bg="powderblue",
 set_alarm = Button(clock, text="Set Alarm", fg="green", activebackground="grey", activeforeground="darkgreen", width=10, font=(
     "Arial", 15, 'bold'), command=actual_time).place(x=200, y=150)
 
-photo = PhotoImage(file="C:/Programming/Python Portfolio/Python-Portfolio/Alarm Clock/alarm.png")
+photo = PhotoImage(file="alarm.png")
 clock.iconphoto(False, photo)
 
 

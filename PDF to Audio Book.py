@@ -2,7 +2,7 @@ import pyttsx3
 import PyPDF2
 
 # Open the PDF file in binary mode
-book = open('C:/Users/Mae Pearl Naigan/Downloads/Michael B. Garbosa-Dev-CV.pdf', 'rb')  # Replace 'mybook.pdf' with the path to your PDF file
+book = open('sample.pdf', 'rb')  # Replace 'mybook.pdf' with the path to your PDF file
 
 # Initialize the TTS engine
 play = pyttsx3.init()

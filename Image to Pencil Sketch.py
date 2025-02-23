@@ -1,7 +1,7 @@
 import cv2
 
 # Load the image
-image = cv2.imread("C:/Programming/Python Portfolio/Python-Portfolio/profile.jpg")
+image = cv2.imread("profile.jpg")
 
 # Convert the image to grayscale
 grey_img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
